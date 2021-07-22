@@ -14,6 +14,7 @@
 		3F7052C0A63A6C858170918C /* libPods-RNFashion-RNFashionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586507D57FBB01200C73E935 /* libPods-RNFashion-RNFashionTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D78DBB4D022FDDE7A5712286 /* libPods-RNFashion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCE9BF0BF34BD07174C789F /* libPods-RNFashion.a */; };
+		FAD607B826A97E0500AD2A2B /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = FAD607B726A97E0500AD2A2B /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED7B06DFA5FD04BA692B439A /* Pods-RNFashion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFashion.debug.xcconfig"; path = "Target Support Files/Pods-RNFashion/Pods-RNFashion.debug.xcconfig"; sourceTree = "<group>"; };
 		EFCE9BF0BF34BD07174C789F /* libPods-RNFashion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFashion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD607B726A97E0500AD2A2B /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../src/assets/fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FAD607B726A97E0500AD2A2B /* fonts */,
 				13B07FAE1A68108700A75B9A /* RNFashion */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNFashionTests */,
@@ -145,7 +148,6 @@
 				389B58615B0C831B77EC0F4A /* Pods-RNFashion-RNFashionTests.debug.xcconfig */,
 				E7160F2B8CDF322D9248CF85 /* Pods-RNFashion-RNFashionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD607B826A97E0500AD2A2B /* fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
